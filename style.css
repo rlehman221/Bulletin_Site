@@ -1,23 +1,16 @@
-/* General */
-
-/* Fonts */
-
-/* Prompt */
 @font-face {
   font-family: 'Prompt';
   font-style: normal;
   font-weight: 300;
   src: url(Prompt.ttf) format('ttf');
 }
-/* Selawk */
+
 @font-face {
   font-family: 'Selawk';
   font-style: normal;
   font-weight: 300;
   src: url(selawk.ttf) format('ttf');
 }
-
-/* Menu */ 
 
 .menu {
   list-style: none;
@@ -30,7 +23,7 @@
   font-weight: bolder;
   font-size: 1.5vw;
 
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -52,7 +45,6 @@
 
 @media screen and (max-width: 600px){
   .menu > li {
-    /*float: none;*/
     font-size: 5vw;
   }
 
@@ -114,8 +106,6 @@
   }
 }
 
-/* App links */
-
 .get-app {
   list-style-type: none;
   padding-bottom: 9px;
@@ -135,23 +125,21 @@
 }
 
 #pics img{
-  width: 60vh;
+  width: 90vh;
   max-width: 90vw;
 }
 
-/* Scroll Links */
-
 .section {
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
   background-image: url("white4.jpg");
   background-size: cover;
 
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
-  column-count: 3;
-  column-width: 500px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  column-width: 300px;
 }
 
 .section h1 {
@@ -160,8 +148,6 @@
   font-weight: bolder;
   
   font-size: 4vw;
-  /*margin-top: 105px;
-  margin-bottom: 0px;*/
 }
 
 .section h2 {
@@ -170,7 +156,6 @@
   font-weight: 400;
   
   font-size: 2vw;
-  /*margin: 5px;*/
 }
 
 .section p {
@@ -191,14 +176,16 @@
   height: 15vh;
 }
 
-/* If you want each section customized*/
 #GetTheApp{
   background-color: #FFC92F;
   background-position: center;
   background-size: cover;
 
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
   column-count: 2;
   column-width: 500px;
 
@@ -220,26 +207,31 @@
 }
 
 .text {
+  padding-top: 15%;
   padding-left: 5vw;
   padding-right: 5vw;
 }
 
 #Organized img {
-  width: 50%;
+  max-width: 50%;
+  max-height: 90vh;
 }
 
 #Personalized img{
-  width: 50%
+  max-width: 50%;
+  max-height: 90vh;
 }
 
 #EasyToUse img {
-  width: 50%;
+  max-width: 50%;
+  max-height: 90vh;
 }
 
 .Title{
-  padding: 1vw;
+  padding: 5vw 1vw;
 }
 
-.List {
-  padding: 1vw;
+.List h2{
+  padding-top: 10%;
+  color: #000000;
 }
